@@ -1,1 +1,10 @@
+<group name="windows,log_clearing">
+  <rule id="100002" level="10">
+    <if_sid>18149</if_sid>
+    <description>Security event log was cleared (Event ID 1102)</description>
+    <mitre>
+      <id>T1070</id>
+    </mitre>
+  </rule>
+</group>
 
