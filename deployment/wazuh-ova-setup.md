@@ -29,3 +29,23 @@ After boot:
 
 Access dashboard:
 
+
+## 4. Network Setup
+
+Assign static IP:
+
+Apply: sudo nano /etc/netplan/01-netcfg.yaml
+
+Apply: sudo netplan apply
+
+
+## 5. Validate Services
+- systemctl status wazuh-manager
+- systemctl status wazuh-indexer
+- systemctl status wazuh-dashboard
+
+
+All should be **active (running)**.
+
+You are now ready to install agents.
+
