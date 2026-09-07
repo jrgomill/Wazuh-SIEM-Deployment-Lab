@@ -46,24 +46,24 @@ See `deployment/wazuh-ova-setup.md` for installation details.
 
 ## Features Implemented
 
-### ✔ Agent Deployment
+### Agent Deployment
 - Windows Server agent
 - Windows workstation agent
 - Linux agent (optional)
 
-### ✔ Log Sources Ingested
+### Log Sources Ingested
 - Windows Security logs
 - Sysmon logs
 - PowerShell logs
 - Linux auth logs
 
-### ✔ Custom Detection Rules
+### Custom Detection Rules
 Located in `/rules/`:
 - Excessive failed logons
 - Event log clearing (Security log)
 - Suspicious PowerShell activity
 
-### ✔ Dashboards
+### Dashboards
 Located in `/dashboards/`:
 - Failed logons dashboard
 - PowerShell activity dashboard
